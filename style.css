@@ -1,0 +1,84 @@
+header {
+    display: flex;
+}
+
+header img {
+    width: 175px;
+    height: 100px;
+    margin: 20px 0px 20px 6%;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 40px 8% 0px auto;
+}
+
+#hello {
+    font-weight: bold;
+}
+
+.jumbotron {
+    height: 500px;
+    background-image: url("./images/hero1.jpg");
+    background-size: 100% 100%;
+}
+
+#portfolio {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container ul {
+    list-style-type: none;
+    margin-top: 10px;
+    border-top: solid #0D4B6E 3px;
+    border-bottom: solid #0D4B6E 6px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.project {
+    font-size: 25px;
+}
+
+.site {
+    color: #BB1F25;
+    font-style: italic;
+}
+
+#img1, #img2, #img3 {
+    height: 375px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* #img1 {
+    background-image: url("./images/company\ photo1.jpg");
+    padding: 0px 10px 0px 10px;
+}
+
+#img2 {
+    background-image: url("./images/company\ photo2.jpg");
+}
+
+#img3 {
+    background-image: url("./images/company\ photo3.jpeg");
+} */
+
+footer {
+    background-color: #3d3d3d;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 12px;
+}
+
+footer a {
+    color: white;
+    font-size: 12px;
+    text-decoration: underline;
+}
